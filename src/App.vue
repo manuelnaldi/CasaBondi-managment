@@ -3,24 +3,34 @@
 </script>
 
 <template>
-  <div class="navbar"></div>
   <div class="container">
-    <div class="calendar"></div>
-  <div class="contacts"></div>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <span class="fs-4">Biblioteca</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#calendario" class="nav-link">Calendario</a></li>
+        <li class="nav-item"><a href="#contatti" class="nav-link">Contatti</a></li>
+      </ul>
+    </header>
   </div>
+
+
+  <a name="home">
+    HOME
+  </a>
+  
+  <a name="calendario">
+    CALENDARIO
+  </a>
+
+  <a name="contatti">
+    CONTATTI
+  </a>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
