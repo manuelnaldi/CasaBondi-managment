@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <Navbar/>
+  <div class="container">
+    
+  </div>
 </template>
 
 
