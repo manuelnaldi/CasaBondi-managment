@@ -1,12 +1,12 @@
 body{
     margin: 1rem;
-    background-color: crimson;
 }
 
 a{
     text-decoration: none; 
     font-size:large;
     color: black;
+    justify-content:stretch
 }
 
 .logo{
@@ -20,3 +20,6 @@ a{
     column-gap: 1.5rem;
 }
 
+a:hover{
+    background-color:crimson;
+}
