@@ -1,4 +1,5 @@
 <template>
+    <img class="castenaso-1" src="/og-stemma-castenaso.svg">
     <div class="card">
         <h1>Benvenuto!</h1>
         <p>Sito web creato per gli studiosi della bibilioteca di Castenaso che vogliono consultare
@@ -13,6 +14,7 @@
         per informarti su come fare!</p>
         <br>
     </div>
+    <img class="castenaso-2" src="/og-stemma-castenaso.svg">
 </template>
 
 <style>
@@ -28,5 +30,13 @@
         width: auto;
         height: auto;
     }
+}
+
+.castenaso{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+
+
 }
 </style>
