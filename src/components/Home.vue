@@ -1,24 +1,32 @@
 <template>
     <div class="card">
-    <h1>Benvenuto!</h1>
-    <p>Sito web creato per i volontari della bibilioteca di Castenaso che vogliono consentire 
-    la fruizione della biblioteca negli orari in cui dovrebbe rimanere chiusa.
-    Il progetto in questo momendo è in fase di sviluppo è andrà provato, con la partecipazione
-    di tutti!</p>
-    <br>
-    <p>Nella sezione <bold>calendario</bold>è possibile accedere per consultare i diversi orari di disponibilità!</p>
-    <br>
-    <p>Nella sezione contatti puoi trovare il link al gruppo whatsapp per comunicare le tue disponibilità
-    che verranno aggiunte nel calendario su questo sito web.</p>
-</div>
+        <h1>Benvenuto!</h1>
+        <p>Sito web creato per gli studiosi della bibilioteca di Castenaso che vogliono consultare
+        l'apertura della biblioteca negli orari in cui dovrebbe rimanere chiusa.
+        Il progetto in questo momento è ancora in prova.</p>
+        <br>
+        <p>Nella sezione <b>calendario</b> è possibile accedere per consultare i diversi orari di disponibilità!</p>
+        <br>
+        <p>Nella sezione <b>contatti</b> puoi trovare il link al gruppo whatsapp per comunicare le tue disponibilità,
+        in qualitàdi volontario, che verranno aggiunte nel calendario su questo sito web.
+        Nel caso anche tu voglia partecipare a questo progetto e diventare volontario, entra sempre nel gruppo whatsapp
+        per informarti su come fare!</p>
+        <br>
+    </div>
 </template>
 
 <style>
 .card{
     padding: 1rem;
     width: 30rem;
-    height: 25rem;
+    height: 28rem;
     background-color: crimson;
     margin: 0 auto;
+    border-radius: 1rem;
+
+    @media only screen and (max-width: 500px) {
+        width: auto;
+        height: auto;
+    }
 }
 </style>
