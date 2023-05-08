@@ -3,8 +3,10 @@
     <div class="card">
         <h1>Benvenuto!</h1>
         <p>Sito web creato per gli studiosi della bibilioteca di Castenaso che vogliono consultare
-        l'apertura della biblioteca negli orari in cui dovrebbe rimanere chiusa.
-        Il progetto in questo momento è ancora in prova.</p>
+        l'apertura della biblioteca anche negli orari in cui dovrebbe rimanere chiusa.
+        <br>
+        <br>
+        <b><i>Il progetto in questo momento è ancora in fase di sviluppo.</i></b></p>
         <br>
         <p>Nella sezione <b>calendario</b> è possibile accedere per consultare i diversi orari di disponibilità!</p>
         <br>
@@ -18,13 +20,16 @@
 </template>
 
 <style>
+.card h1{
+    text-align: center;
+}
 .card{
     padding: 1rem;
     width: 30rem;
-    height: 28rem;
-    background-color: crimson;
+    height: 32rem;
+    background-color: #dc143ced;
     margin: 0 auto;
-    border-radius: 1rem;
+    border-radius: 3rem;
 
     @media only screen and (max-width: 500px) {
         width: auto;
@@ -38,7 +43,9 @@
     opacity: 0.3;
     top: 10rem;
     right: 1rem;
-
+    @media only screen and (max-width: 520px) {
+        display: none;
+    }
 
 }
 
@@ -48,5 +55,9 @@
     opacity: 0.3;
     top: 10rem;
     left: 1rem;
+
+    @media only screen and (max-width: 520px) {
+        display: none;
+    }
 }
 </style>

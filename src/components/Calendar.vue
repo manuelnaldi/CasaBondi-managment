@@ -2,7 +2,7 @@
   <div class="container">
     <iframe 
       src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23D50000&ctz=Europe%2FRome&mode=MONTH&title=Orari%20Biblioteca&src=ZDdjMmI3YzI5YTM1MDE2NDU1MTU0N2U2NmI3MGRlOWIxNzYyMzhjOTIxZjAxNDBjNGRiY2Y4NDhjZWVmNzFiYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441" 
-      loading="lazy"
+      loading="eager"
       >
     </iframe>
   </div>
@@ -24,7 +24,7 @@ iframe{
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    background-color: azure;
+    background-color: #dc143c;
 }
 </style>
     
