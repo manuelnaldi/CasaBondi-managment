@@ -6,7 +6,9 @@ a{
     text-decoration: none; 
     font-size:large;
     color: black;
-    justify-content:stretch
+    @media only screen and (max-width: 350px) {
+        font-size: small;
+    }
 }
 
 .logo{
@@ -18,8 +20,13 @@ a{
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 1.5rem;
+    
+    @media only screen and (max-width: 350px) {
+        column-gap: 0.5rem;
+    }
 }
 
 a:hover{
-    background-color:crimson;
+    color: crimson;
 }
+
