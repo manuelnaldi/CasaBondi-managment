@@ -1,6 +1,6 @@
 <template>
     <img class="castenaso-1" src="/og-stemma-castenaso.svg">
-    <div class="card">
+    <div class="card-contacts">
         <h1>Contatti</h1>
         <br>
         <p>Di seguito il link del gruppo whatsapp 
@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.card{
+.card-contacts{
     padding: 1rem;
     width: 30rem;
     height: 46rem;
