@@ -32,11 +32,21 @@
     }
 }
 
-.castenaso{
+.castenaso-1{
     position: absolute;
     z-index: -1;
     opacity: 0.3;
+    top: 10rem;
+    right: 1rem;
 
 
+}
+
+.castenaso-2{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    top: 10rem;
+    left: 1rem;
 }
 </style>

@@ -1,12 +1,16 @@
 body{
     margin: 1rem;
+    background-color: #FFFFFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23FFFFFF' width='11' height='11'/%3E%3Crect fill='%23fffcfb' x='10' width='11' height='11'/%3E%3Crect fill='%23fff8f8' y='10' width='11' height='11'/%3E%3Crect fill='%23fff5f4' x='20' width='11' height='11'/%3E%3Crect fill='%23fff1f0' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23ffeeed' y='20' width='11' height='11'/%3E%3Crect fill='%23ffebe9' x='30' width='11' height='11'/%3E%3Crect fill='%23ffe7e6' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23ffe4e2' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23ffe1de' y='30' width='11' height='11'/%3E%3Crect fill='%23ffdddb' x='40' width='11' height='11'/%3E%3Crect fill='%23ffdad7' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23ffd6d4' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23ffd3d0' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23ffd0cd' y='40' width='11' height='11'/%3E%3Crect fill='%23ffccc9' x='50' width='11' height='11'/%3E%3Crect fill='%23ffc9c6' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23ffc5c2' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23ffc2bf' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23ffbfbb' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23ffbbb8' y='50' width='11' height='11'/%3E%3Crect fill='%23ffb8b4' x='60' width='11' height='11'/%3E%3Crect fill='%23feb4b1' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23feb1ae' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23feaeaa' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23fdaaa7' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23fca7a3' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23fca3a0' x='70' width='11' height='11'/%3E%3Crect fill='%23fba09d' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23fb9c99' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23fa9996' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23f99593' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23f9928f' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23f88e8c' x='80' width='11' height='11'/%3E%3Crect fill='%23f78b89' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23f68786' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23f68482' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23f5807f' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23f47c7c' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23f37979' x='90' width='11' height='11'/%3E%3Crect fill='%23f27575' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23f17172' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23f06d6f' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23ef6a6c' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23ee6669' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23ed6266' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23ec5e63' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23eb5a60' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23ea555c' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e95159' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23e84d56' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23e64853' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23e54350' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23e43e4d' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23e3394a' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23e13448' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23e02d45' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23df2642' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23dd1e3f' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23DC143C' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a{
     text-decoration: none; 
     font-size:large;
     color: black;
-    @media only screen and (max-width: 350px) {
+    @media only screen and (max-width: 370px) {
         font-size: small;
     }
 }
@@ -20,13 +24,18 @@ a{
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 1.5rem;
+    background-color: crimson;
+    border-radius: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem auto;
     
-    @media only screen and (max-width: 350px) {
+    @media only screen and (max-width: 370px) {
         column-gap: 0.5rem;
     }
 }
 
 a:hover{
-    color: crimson;
+    color: white;
 }
+
 
