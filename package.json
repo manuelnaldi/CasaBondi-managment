@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.1",
   "type": "module",
-  "homepage": "https://manuelnaldi.github.io/bibilioteca-castenaso",
+  "homepage": "https://manuelnaldi.github.io/biblioteca-castenaso/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
