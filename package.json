@@ -1,12 +1,15 @@
 {
-  "name": "casabondi",
+  "name": "biblioteca-castenaso",
   "private": true,
   "version": "0.1",
   "type": "module",
+  "homepage": "https://manuelnaldi.github.io/bibilioteca-castenaso",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "less": "^4.1.3",
