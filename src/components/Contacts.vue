@@ -3,13 +3,9 @@
     <div class="card-contacts">
         <h1>Contatti</h1>
         <br>
-        <p>Di seguito il link del gruppo whatsapp 
+        <p>Di seguito il qrcode del gruppo whatsapp 
             per poter entrare a far parte dei volontari!
         </p>
-        <br>
-        <br>
-        <p>Link: https://chat.whatsapp.com/B6hkcSAKTaUB7IT9sc2pfv</p>
-        <br>
         <br>
         <p>QR Code:</p>
         <img class="qrcode" src="/qrCode.png">
@@ -20,21 +16,24 @@
 <style>
 .card-contacts img{
     border-radius: 3rem;
-    width: 26rem;
-    height: 23rem;
+    width: 100%;
+    height: auto;
+    
 }
 
 .card-contacts h1{
     text-align: center;
+    color: white;
 }
 
 .card-contacts{
     padding: 1rem;
     width: 28rem;
     height: 45rem;;
-    background-color: #dc143ced;
+    background-color: #dc143cab;
     margin: 0 auto;
     border-radius: 3rem;
+    color: rgb(230, 217, 217);
 
     @media only screen and (max-width: 500px) {
         width: auto;
