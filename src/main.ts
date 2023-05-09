@@ -11,9 +11,9 @@ const calendar = Calendar;
 const contacts = Contacts;
 
 const routes = [
-  { path: '/biblioteca-castenaso/', component: home },
-  { path: '/biblioteca-castenaso/calendar', component: calendar },
-  { path: '/biblioteca-castenaso/contacts', component: contacts }
+  { path: '/', component: home },
+  { path: '/calendar', component: calendar },
+  { path: '/contacts', component: contacts }
 ]
 
 const router = createRouter({
