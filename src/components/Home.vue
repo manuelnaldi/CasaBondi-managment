@@ -26,7 +26,7 @@
     padding: 1rem;
     width: 30rem;
     height: 32rem;
-    background-color: #dc143cab;
+    background-color: #dc143cd4;
     margin: 0 auto;
     border-radius: 3rem;
     color: rgb(230, 217, 217);
