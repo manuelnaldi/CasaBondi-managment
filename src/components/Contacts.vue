@@ -18,18 +18,20 @@
 </template>
 
 <style>
-.qrcode{
+.card-contacts img{
     border-radius: 3rem;
+    width: 26rem;
+    height: 23rem;
 }
 
-.card h1{
+.card-contacts h1{
     text-align: center;
 }
 
 .card-contacts{
     padding: 1rem;
-    width: 30rem;
-    height: 46rem;
+    width: 28rem;
+    height: 45rem;;
     background-color: #dc143ced;
     margin: 0 auto;
     border-radius: 3rem;
