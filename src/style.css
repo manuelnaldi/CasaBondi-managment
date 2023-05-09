@@ -38,4 +38,35 @@ a:hover{
     color: white;
 }
 
+.biblio{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    width: 80rem;
+    top: 11rem;
+    left: 20rem;
+}
 
+.castenaso-1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    top: 10rem;
+    right: 1rem;
+    @media only screen and (max-width: 520px) {
+        display: none;
+    }
+
+}
+
+.castenaso-2{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    top: 10rem;
+    left: 1rem;
+
+    @media only screen and (max-width: 520px) {
+        display: none;
+    }
+}
