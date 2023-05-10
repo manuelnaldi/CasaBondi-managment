@@ -6,9 +6,19 @@
       >
     </iframe>
   </div>
+  <br>
+  <p class="mobile"><b>NB: Per consultare al meglio questa pagina posiziona il tuo telefono in orizzontale</b></p>
 </template>
 
 <style>
+.mobile{
+  text-align: center;
+  color: black;
+  @media only screen and (min-width: 540px) {
+        display: none;
+    }
+}
+
 iframe{
   position: absolute;
   top: 0;
