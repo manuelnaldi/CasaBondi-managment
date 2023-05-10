@@ -30,10 +30,17 @@
     margin: 0 auto;
     border-radius: 3rem;
     color: rgb(230, 217, 217);
+    animation: slide 2s ease-in-out;
+    animation-delay: -1s;
 
     @media only screen and (max-width: 500px) {
         width: auto;
         height: auto;
     }
+}
+
+@keyframes slide{
+    from { top: 100rem }
+    to { top: 0rem}
 }
 </style>
