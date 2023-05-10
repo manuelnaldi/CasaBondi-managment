@@ -46,6 +46,12 @@ a:hover{
     right: 30rem;
     width: 100rem;
 
+    @media only screen and (max-width: 2335px) {
+        top: 28rem;
+        right: 23rem;
+        width: 60rem;
+    }
+
     @media only screen and (max-width: 1480px) {
         top: 28rem;
         right: 14rem;
