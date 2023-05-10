@@ -14,9 +14,21 @@
   </header>
   <main>
     <div class="view">
-      <router-view></router-view>
+      <transition name="slide">
+        <router-view></router-view>
+      </transition>
     </div>
   </main>
 </template>
 
+<style>
+.slide-enter-active{
+    animation: slide-in 2s ease-in-out;
+    animation-delay: -1s;
+}
 
+@keyframes slide-in{
+    from { top: 100rem }
+    to { top: 0rem }
+ }
+</style>
