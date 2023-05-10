@@ -29,7 +29,7 @@ a{
     padding: 1rem 1rem 1rem 1rem;
     margin: 1rem auto;
     
-    @media only screen and (max-width: 370px) {
+    @media only screen and (max-width: 375px) {
         column-gap: 0.5rem;
     }
 }
@@ -46,25 +46,25 @@ a:hover{
     right: 30rem;
     width: 100rem;
 
-    @media only screen and (max-width: 1440px) {
+    @media only screen and (max-width: 1480px) {
         top: 28rem;
         right: 14rem;
         width: 60rem;
     }
 
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1064px) {
         top: 31rem;
         right: 10rem;
         width: 45rem;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 820px) {
         top: 33rem;
         right: 7rem;
         width: 38rem;
     }
 
-    @media only screen and (max-width: 520px) {
+    @media only screen and (max-width: 540px) {
         display: none;
     }
 }
