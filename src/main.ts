@@ -5,6 +5,7 @@ import App from './App.vue'
 import Calendar from './components/Calendar.vue';
 import Contacts from './components/Contacts.vue';
 import Home from './components/Home.vue';
+import guide from './components/Guide.vue';
 
 const home = Home;
 const calendar = Calendar;
@@ -13,7 +14,8 @@ const contacts = Contacts;
 const routes = [
   { path: '/biblioteca-castenaso/', component: home },
   { path: '/biblioteca-castenaso/calendar', component: calendar },
-  { path: '/biblioteca-castenaso/contacts', component: contacts }
+  { path: '/biblioteca-castenaso/contacts', component: contacts },
+  { path: '/biblioteca-castenaso/guide', component: guide }
 ]
 
 const router = createRouter({
