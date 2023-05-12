@@ -10,6 +10,11 @@ a{
     text-decoration: none; 
     font-size:large;
     color: black;
+
+    @media only screen and (max-width: 445px) {
+        font-size: medium;
+    }
+
     @media only screen and (max-width: 370px) {
         font-size: small;
     }
@@ -29,7 +34,7 @@ a{
     padding: 1rem 1rem 1rem 1rem;
     margin: 1rem auto;
     
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 445px) {
         column-gap: 0.5rem;
     }
 }
