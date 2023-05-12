@@ -9,15 +9,18 @@
             <br>
             <p>Nella sezione <b>calendario</b> è possibile accedere per consultare i diversi orari di disponibilità!</p>
             <br>
+            <p>Nella sezione <b>guida</b> puoi trovare informazioni utili!</p>
+            <br>
             <p>Nella sezione <b>contatti</b> puoi trovare il link al gruppo whatsapp per comunicare le tue disponibilità,
-            in qualità di volontario, che verranno aggiunte nel calendario su questo sito web.
-            <br>
-            Vuoi diventare anche tu un volontario? Facile! Entra sul gruppo Whatsapp per avere più informazioni!</p>
-            <br>
+            in qualità di volontario, che verranno aggiunte nel calendario su questo sito web.</p>
         </div>
 </template>
 
 <style>
+.card b{
+    color: white;
+}
+
 .card h1{
     text-align: center;
     color: white;
@@ -30,7 +33,7 @@
 .card{
     padding: 1rem;
     width: 30rem;
-    height: 30rem;
+    height: 31rem;
     background-color: #dc143cd4;
     margin: 0 auto;
     border-radius: 3rem;
