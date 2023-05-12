@@ -7,17 +7,19 @@
             <br>
             <b><i>Il progetto in questo momento è ancora in fase di sviluppo.</i></b></p>
             <br>
-            <p>Nella sezione <b>calendario</b> è possibile accedere per consultare i diversi orari di disponibilità!</p>
+            <p>Nella sezione <b>calendario</b> <i class="fa-solid fa-calendar"></i> è possibile accedere per consultare i diversi orari di disponibilità!</p>
             <br>
-            <p>Nella sezione <b>guida</b> puoi trovare informazioni utili!</p>
+            <p>Nella sezione <b>guida</b> <i class="fa-solid fa-book-open"></i> puoi trovare informazioni utili!</p>
             <br>
-            <p>Nella sezione <b>contatti</b> puoi trovare il link al gruppo whatsapp per comunicare le tue disponibilità,
+            <p>Nella sezione <b>contatti</b> <i class="fa-solid fa-address-card"></i> puoi trovare il link al gruppo whatsapp per comunicare le tue disponibilità,
             in qualità di volontario, che verranno aggiunte nel calendario su questo sito web.</p>
         </div>
 </template>
 
 <style>
-.card b{
+
+
+.card b, .card i{
     color: white;
 }
 
@@ -33,7 +35,7 @@
 .card{
     padding: 1rem;
     width: 30rem;
-    height: 31rem;
+    height: 32rem;
     background-color: #dc143cd4;
     margin: 0 auto;
     border-radius: 3rem;
