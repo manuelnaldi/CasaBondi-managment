@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import {createRouter, createWebHistory} from 'vue-router';
 import {createBootstrap} from 'bootstrap-vue-next'
-import './style.css'
+import './style.scss'
 import App from './App.vue'
 import Calendar from './views/Calendar.vue';
 import Contacts from './views/Contacts.vue';

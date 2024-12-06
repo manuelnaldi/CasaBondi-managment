@@ -1,0 +1,12 @@
+$primary: #F5EEE6;
+$secondary: #FFF8E3;
+$info: #F3D7CA;
+$pink: #E6A4B4;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-vue-next/dist/bootstrap-vue-next.css';
+
+header {
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
