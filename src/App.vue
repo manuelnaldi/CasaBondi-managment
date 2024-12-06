@@ -10,28 +10,28 @@
         <div class="icon-house">
           <i class="fa-solid fa-house"></i>
         </div>
-        <a><router-link to="/biblioteca-castenaso/">Home</router-link></a>
+        <a><router-link to="/salastudio-castenaso/">Home</router-link></a>
       </div>
 
       <div class="calendar">
         <div class="icon-calendar">
           <i class="fa-solid fa-calendar"></i>
         </div>
-        <a><router-link to="/biblioteca-castenaso/calendar">Calendario</router-link></a>
+        <a><router-link to="/salastudio-castenaso/calendar">Calendario</router-link></a>
       </div>
 
       <div class="guide">
         <div class="icon-guide">
           <i class="fa-solid fa-book-open"></i>
         </div>
-        <a><router-link to="/biblioteca-castenaso/guide">Guida</router-link></a>
+        <a><router-link to="/salastudio-castenaso/guide">Guida</router-link></a>
       </div>
       
       <div class="contacts">
         <div class="icon-contacts">
           <i class="fa-solid fa-address-card"></i>
         </div>
-        <a><router-link to="/biblioteca-castenaso/contacts">Contatti</router-link></a>
+        <a><router-link to="/salastudio-castenaso/contacts">Contatti</router-link></a>
       </div>
     </div>
     <br>

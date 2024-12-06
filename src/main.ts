@@ -12,10 +12,10 @@ const calendar = Calendar;
 const contacts = Contacts;
 
 const routes = [
-  { path: '/biblioteca-castenaso/', component: home },
-  { path: '/biblioteca-castenaso/calendar', component: calendar },
-  { path: '/biblioteca-castenaso/contacts', component: contacts },
-  { path: '/biblioteca-castenaso/guide', component: guide }
+  { path: '/salastudio-castenaso/', component: home },
+  { path: '/salastudio-castenaso/calendar', component: calendar },
+  { path: '/salastudio-castenaso/contacts', component: contacts },
+  { path: '/salastudio-castenaso/guide', component: guide }
 ]
 
 const router = createRouter({

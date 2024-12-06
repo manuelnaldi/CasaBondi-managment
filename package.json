@@ -1,10 +1,10 @@
 {
-  "name": "biblioteca-castenaso",
+  "name": "salastudio-castenaso",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "deploy": "cd dist && cp index.html 404.html"
@@ -19,5 +19,6 @@
     "typescript": "^5.0.4",
     "vite": "^4.3.5",
     "vue-tsc": "^1.4.2"
-  }
+  },
+  "packageManager": "yarn@4.5.3"
 }
