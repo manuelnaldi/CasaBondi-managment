@@ -7,18 +7,10 @@
             </p>
             <br>
             <p>QR Code:</p>
-            <div class="imgContainer">
-                <img src="/qrCode.png">
-            </div>
         </div>
 </template>
 
 <style>
-.imgContainer img{
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 3rem;
-}
 
 .card-contacts{
     padding: 1rem;

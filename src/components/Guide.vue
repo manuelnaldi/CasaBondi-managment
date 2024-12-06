@@ -6,8 +6,6 @@
         <br>
         <br>
         Inoltre vi sono due <b>moduli</b> da portare compilati e firmati alle Nostre bibliotecarie:
-        <br> <b>- Iscrizione al registro comunale di Castenaso: </b><a href="ISCRIZIONE_REGISTRO_COMUNE_CASTENASO 24.08.pdf" download="ISCRIZIONE_REGISTRO_COMUNALE_CASTENASO"><u>Scarica</u> <i class="fa-solid fa-download"></i></a>
-        <br> <b>- Patto collaborativo: </b><a href="Bozza_Patto_collab.pdf" download="Bozza_Patto_Collab"><u>Scarica</u> <i class="fa-solid fa-download"></i></a>
         <br>
         <br>
         Infine ricordati di entrare sul <b>gruppo Whatsapp</b>, sarà molto più facile organizzarsi.

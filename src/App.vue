@@ -4,7 +4,6 @@
 <template>
   <header>
     <div class="navbar">
-      <img class="logo" src="/casabondi.svg"/>
 
       <div class="home">
         <div class="icon-house">
