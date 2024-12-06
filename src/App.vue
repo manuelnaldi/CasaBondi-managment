@@ -1,36 +1,33 @@
+<script setup lang="ts">
+  import { BNavbar, BNavbarBrand, BNavbarNav } from "bootstrap-vue-next"
+  import { baseRoute, calendarRoute, guideRoute, contactsRoute } from "./main.ts"
+</script>
+
 <template>
   <header>
-    <div class="navbar">
-
-      <div class="home">
-        <div class="icon-house">
-          Home
-        </div>
-        <a><router-link to="/salastudio-castenaso/">Home</router-link></a>
-      </div>
-
-      <div class="calendar">
-        <div class="icon-calendar">
-          Calendar
-        </div>
-        <a><router-link to="/salastudio-castenaso/calendar">Calendario</router-link></a>
-      </div>
-
-      <div class="guide">
-        <div class="icon-guide">
-          Guide
-        </div>
-        <a><router-link to="/salastudio-castenaso/guide">Guida</router-link></a>
-      </div>
-      
-      <div class="contacts">
-        <div class="icon-contacts">
-          Contacts
-        </div>
-        <a><router-link to="/salastudio-castenaso/contacts">Contatti</router-link></a>
-      </div>
-    </div>
-    <br>
+    <BNavbar 
+      variant="primary"
+      fixed="top"
+    >
+      <BNavbarBrand 
+        :to="baseRoute"
+      >
+        Sala Studio
+      </BNavbarBrand>
+      <BCollapse is-nav> 
+        <BNavbarNav>
+          <BNavItem :to="calendarRoute">
+            Calendario
+          </BNavItem>
+          <BNavItem :to="guideRoute">
+            Guida
+          </BNavItem>
+          <BNavItem :to="contactsRoute">
+            Contatti
+          </BNavItem>
+        </BNavbarNav>
+      </BCollapse> 
+    </BNavbar>
   </header>
   <main>
     <div class="view">
