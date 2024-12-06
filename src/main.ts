@@ -3,10 +3,10 @@ import {createRouter, createWebHistory} from 'vue-router';
 import {createBootstrap} from 'bootstrap-vue-next'
 import './style.css'
 import App from './App.vue'
-import Calendar from './components/Calendar.vue';
-import Contacts from './components/Contacts.vue';
-import Home from './components/Home.vue';
-import Guide from './components/Guide.vue';
+import Calendar from './views/Calendar.vue';
+import Contacts from './views/Contacts.vue';
+import Home from './views/Home.vue';
+import Guide from './views/Guide.vue';
 
 export const baseRoute = "/salastudio-castenaso/";
 export const calendarRoute = baseRoute + "calendar";

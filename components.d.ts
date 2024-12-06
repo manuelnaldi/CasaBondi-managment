@@ -9,10 +9,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     BCollapse: typeof import('bootstrap-vue-next/components/BCollapse')['BCollapse']
     BNavItem: typeof import('bootstrap-vue-next/components/BNav')['BNavItem']
-    Calendar: typeof import('./src/components/Calendar.vue')['default']
-    Contacts: typeof import('./src/components/Contacts.vue')['default']
-    Guide: typeof import('./src/components/Guide.vue')['default']
-    Home: typeof import('./src/components/Home.vue')['default']
+    Navbar: typeof import('./src/components/Navbar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
