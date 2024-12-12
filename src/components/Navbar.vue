@@ -1,7 +1,7 @@
 <template>
     <BNavbar 
       variant="primary"
-      fixed="top"
+      fixed="bottom"
       class="navbar navbar-dark"
     >
       <BNavbarBrand 
@@ -25,5 +25,4 @@
 <script setup lang="ts">
   import { BNavbar, BNavbarBrand, BNavbarNav } from "bootstrap-vue-next"
   import { baseRoute, calendarRoute, contactsRoute } from "../main.ts"
-  
 </script>
