@@ -4,8 +4,10 @@ $secondary: #708D81;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../node_modules/bootstrap-vue-next/dist/bootstrap-vue-next.css';
 
-header {
-    height: 3.5rem;
+#app {
+    font-family: 'LibreCaslonDisplayRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .container-xl {
@@ -13,3 +15,5 @@ header {
     width: 100vw;
     margin: 0 0 0 0;
 }
+
+
