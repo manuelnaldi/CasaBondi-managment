@@ -7,7 +7,8 @@
     "dev": "vite --host",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "deploy": "cd dist && cp index.html 404.html"
+    "deploy:copy": "cp dist/index.html dist/404.html",
+    "deploy": "yarn build && yarn deploy:copy && git add dist -f && git commit -m \"adding dist\" && git subtree push --prefix dist origin gh-pages && git push origin master"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
