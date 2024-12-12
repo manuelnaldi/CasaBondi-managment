@@ -1,21 +1,20 @@
-import { createApp } from 'vue'
-import {createRouter, createWebHistory} from 'vue-router'
-import './style.css'
+import { createApp } from 'vue';
+import {createRouter, createWebHistory} from 'vue-router';
+import {createBootstrap} from 'bootstrap-vue-next'
+import './style.scss'
 import App from './App.vue'
-import Calendar from './components/Calendar.vue';
-import Contacts from './components/Contacts.vue';
-import Home from './components/Home.vue';
-import guide from './components/Guide.vue';
+import Calendar from './views/Calendar.vue';
+import Contacts from './views/Contacts.vue';
+import Home from './views/Home.vue';
 
-const home = Home;
-const calendar = Calendar;
-const contacts = Contacts;
+export const baseRoute = "/salastudio-castenaso/";
+export const calendarRoute = baseRoute + "calendar";
+export const contactsRoute = baseRoute + "contacts";
 
 const routes = [
-  { path: '/biblioteca-castenaso/', component: home },
-  { path: '/biblioteca-castenaso/calendar', component: calendar },
-  { path: '/biblioteca-castenaso/contacts', component: contacts },
-  { path: '/biblioteca-castenaso/guide', component: guide }
+  { path: baseRoute, component: Home },
+  { path: calendarRoute, component: Calendar },
+  { path: contactsRoute, component: Contacts }
 ]
 
 const router = createRouter({
@@ -23,4 +22,7 @@ const router = createRouter({
   routes
 })
 
-createApp(App).use(router).mount('#app')
+const app = createApp(App);
+app.use(router);
+app.use(createBootstrap());
+app.mount('#app');

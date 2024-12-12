@@ -1,63 +1,8 @@
-<script setup lang="ts">
-</script>
-
 <template>
-  <header>
-    <div class="navbar">
-      <img class="logo" src="/casabondi.svg"/>
-
-      <div class="home">
-        <div class="icon-house">
-          <i class="fa-solid fa-house"></i>
-        </div>
-        <a><router-link to="/biblioteca-castenaso/">Home</router-link></a>
-      </div>
-
-      <div class="calendar">
-        <div class="icon-calendar">
-          <i class="fa-solid fa-calendar"></i>
-        </div>
-        <a><router-link to="/biblioteca-castenaso/calendar">Calendario</router-link></a>
-      </div>
-
-      <div class="guide">
-        <div class="icon-guide">
-          <i class="fa-solid fa-book-open"></i>
-        </div>
-        <a><router-link to="/biblioteca-castenaso/guide">Guida</router-link></a>
-      </div>
-      
-      <div class="contacts">
-        <div class="icon-contacts">
-          <i class="fa-solid fa-address-card"></i>
-        </div>
-        <a><router-link to="/biblioteca-castenaso/contacts">Contatti</router-link></a>
-      </div>
-    </div>
-    <br>
-  </header>
-  <main>
-    <div class="view">
-      <transition name="slide">
-        <router-view></router-view>
-      </transition>
-    </div>
-  </main>
+      <Navbar/>
+      <router-view></router-view>
 </template>
 
-<style>
-.icon-house, .icon-calendar, .icon-guide, .icon-contacts{
-  text-align: center;
-  color: black;
-}
-
-.slide-enter-active{
-    animation: slide-in 2s ease-in-out;
-    animation-delay: -1s;
-}
-
-@keyframes slide-in{
-    from { top: 100rem }
-    to { top: 0rem }
- }
-</style>
+<script setup lang="ts">
+  import Navbar from "./components/Navbar.vue"
+</script>
