@@ -3,11 +3,13 @@ $secondary: #708D81;
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../node_modules/bootstrap-vue-next/dist/bootstrap-vue-next.css';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 #app {
     font-family: 'LibreCaslonDisplayRegular';
     font-weight: normal;
     font-style: normal;
+    color: $primary;
 }
 
 .container-xl {

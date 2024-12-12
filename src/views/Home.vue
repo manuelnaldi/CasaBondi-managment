@@ -1,8 +1,5 @@
 <template>
         <div class="container-xl bg-secondary">
-            <div class="title">Sala Studio Castenaso</div>
+            <h1>Sala Studio Castenaso</h1>
         </div>
 </template>
-
-<style>
-</style>

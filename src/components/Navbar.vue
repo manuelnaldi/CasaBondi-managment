@@ -12,10 +12,10 @@
       <BCollapse is-nav> 
         <BNavbarNav>
           <BNavItem :to="calendarRoute">
-            Calendario
+            Calendario <i class="bi bi-calendar-event-fill ms-1 me-2"></i>
           </BNavItem>
           <BNavItem :to="contactsRoute">
-            Contatti
+            Contatti <i class="bi bi-person-lines-fill ms-1"></i>
           </BNavItem>
         </BNavbarNav>
       </BCollapse> 
