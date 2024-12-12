@@ -1,7 +1,15 @@
+$primary: #001427;
+$secondary: #708D81;
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../node_modules/bootstrap-vue-next/dist/bootstrap-vue-next.css';
 
 header {
     height: 3.5rem;
-    margin-bottom: 1rem;
+}
+
+.container-xl {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 0 0 0;
 }

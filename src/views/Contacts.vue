@@ -1,5 +1,5 @@
 <template>
-        <div class="card-contacts">
+        <div class="container-xl bg-secondary">
             <h1>Contatti</h1>
             <br>
             <p>Di seguito il qrcode del gruppo whatsapp 
