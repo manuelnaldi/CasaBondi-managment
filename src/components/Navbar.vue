@@ -13,9 +13,6 @@
           <BNavItem :to="calendarRoute">
             Calendario
           </BNavItem>
-          <BNavItem :to="guideRoute">
-            Guida
-          </BNavItem>
           <BNavItem :to="contactsRoute">
             Contatti
           </BNavItem>
@@ -26,5 +23,5 @@
 
 <script setup lang="ts">
   import { BNavbar, BNavbarBrand, BNavbarNav } from "bootstrap-vue-next"
-  import { baseRoute, calendarRoute, guideRoute, contactsRoute } from "../main.ts"
+  import { baseRoute, calendarRoute, contactsRoute } from "../main.ts"
 </script>
