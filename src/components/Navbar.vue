@@ -1,7 +1,7 @@
 <template>
     <BNavbar 
       variant="primary"
-      fixed="bottom"
+      fixed="top"
       class="navbar navbar-dark"
     >
       <BNavbarBrand 

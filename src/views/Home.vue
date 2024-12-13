@@ -7,13 +7,3 @@
         <div></div>
     </div>
 </template>
-
-<style lang="scss">
-    .grid-container{
-        position: fixed;
-        display: grid;
-        grid-template-columns: 2rem auto 2rem;
-        grid-template-rows: auto;
-        width: 100%;
-    }
-</style>

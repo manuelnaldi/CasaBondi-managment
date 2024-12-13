@@ -4,9 +4,10 @@
     </iframe>
 </template>
 
-<style>
+<style lang="scss" scoped>
 iframe{
   position: relative;
+  top: 3.5rem;
   width: 100vw;
   height: 93vh;
 }
